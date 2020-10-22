@@ -5,9 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+GitPython = "*"
 
 [packages]
 django = "==2.2"
+djangorestframework = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.8"
